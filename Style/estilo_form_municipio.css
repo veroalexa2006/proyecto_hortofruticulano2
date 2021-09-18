@@ -5,11 +5,11 @@
 body {
   margin:0;
   font-family:sans-serif;
-  background:#F5FAFC;
+  background:#F3FAFD;
 }
 
 .contenedor {
-  color: #0097C3;
+  color: #F3FAFD;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ body {
   width: 60%;
   max-width: 500px;
   margin: auto;
-  background: #7DFDA3;
+  background: #F3FAFD;
   border-radius: 7px;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .btn-insertar {
   background: crimson;
-  color: #FF009E;
+  color: #F3FAFD;
   margin: auto;
   padding: 10px 40px;
   cursor: pointer;
@@ -70,7 +70,7 @@ body {
 
 .btn-Modificar {
   background: crimson;
-  color: #FF009E;
+  color: #F3FAFD;
   margin: auto;
   padding: 10px 40px;
   cursor: pointer;
@@ -83,7 +83,7 @@ body {
 
 .btn-Buscar {
   background: crimson;
-  color: #FF009E;
+  color: #F3FAFD;
   margin: auto;
   padding: 10px 40px;
   cursor: pointer;
@@ -96,7 +96,7 @@ body {
 
 .btn-Eliminar {
   background: crimson;
-  color: #FF009E;
+  color: #F3FAFD;
   margin: auto;
   padding: 10px 40px;
   cursor: pointer;
@@ -109,7 +109,7 @@ body {
 
 .btn-Limpiar {
   background: crimson;
-  color: #FF009E;
+  color: #F3FAFD;
   margin: auto;
   padding: 10px 40px;
   cursor: pointer;
@@ -122,7 +122,7 @@ body {
 
 .btn-Retornar  {
   background: crimson;
-  color: #FF009E;
+  color: #F3FAFD;
   margin: auto;
   padding: 10px 40px;
   cursor: pointer;

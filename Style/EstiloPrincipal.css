@@ -46,7 +46,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .nav_link{
-  background: #02C8B0;
+  background: #041BB6;
   color: white;
   padding: 5px;
   border-radius: 5px;
@@ -59,7 +59,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .nav_link_button{
-  background: #02C8B0;
+  background: #041BB6;
   color: white;
   padding: 5px;
   border-radius: 3px; 
@@ -182,7 +182,7 @@ label{
 .tienda div {
   width: 100%;
   height: 50px;
-  background: #02C8B0;
+  background: #041BB6;
 }
 
 
@@ -197,7 +197,7 @@ label{
   justify-content: center;
   position: relative;
   height: 100px;
-  background: #02C8B0;
+  background: #041BB6;
   align-content: center;
 }
 

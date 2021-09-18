@@ -2,11 +2,10 @@
 margin: 0;
 padding: 0;
 font-family: 'Open Sans', sans-serif;
-
 }
 
 .Contenedor{
-  border: solid 1px black;
+  border: solid 1px white;
   width: 100%;
   max-width:1000px;
   margin: auto;
@@ -25,13 +24,13 @@ font-family: 'Open Sans', sans-serif;
   width:100px;
 }
 
-.Cabecera_h1 {
+.cabecera_h1 {
   position: absolute;
   top: 40px;
   left: 150px;
 }
 
-.Cabecera_frase {
+.cabecera_frase {
   position: absolute;
   top: 70px;
   left: 235px;
@@ -47,26 +46,27 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .nav_link{
-  background: #;
+  background: #02C8B0;
   color: white;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .nav_link_palote{
-  background: #2AAE3B;
+  background: #02C8B0;
   color: white;
   padding: 5px;
   border-radius: 3px;
 }
 
 .nav_link_button{
-  background: #2AAE3B;
+  background: #02C8B0;
   color: white;
   padding: 5px;
   border-radius: 3px; 
 }
 
-/*************************/
+
+/****GALERIA*****/
 .galeria {
  width: 100%;
  height: 400px;
@@ -101,6 +101,19 @@ font-family: 'Open Sans', sans-serif;
 .elemento3:checked ~ .galeria_contenedor {
   transform: translateX(-1200px);
 }
+
+.elemento4:checked ~ .galeria_contenedor {
+  transform: translateX(-1800px);
+}
+
+.elemento5:checked ~ .galeria_contenedor {
+  transform: translateX(-2400px);
+}
+
+.elemento6:checked ~ .galeria_contenedor {
+  transform: translateX(-3000px);
+}
+
 .controles {
  width: 100%;
  height: 30px;
@@ -119,6 +132,7 @@ label{
   display: block;
   cursor: pointer;
 }
+
 /****MODULOS*****/
 .tienda {
   display:grid;
@@ -156,10 +170,19 @@ label{
   text-align: center;
 }
 
+.btn_municipios {
+  background: #028D6A;
+  color: #fff;
+  margin: auto;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
 .tienda div {
   width: 100%;
   height: 50px;
-  background: #2AAE3B;
+  background: #02C8B0;
 }
 
 
@@ -174,7 +197,7 @@ label{
   justify-content: center;
   position: relative;
   height: 100px;
-  background: #2AAE3B;
+  background: #02C8B0;
   align-content: center;
 }
 
@@ -182,25 +205,25 @@ label{
   text-align: center;
   color: white;
 }
-  
-/****RESPONSIVE DESIG*****/
+ 
+/*RESPONSIVE DESIG**/
 
-@media screen and (max-width: 600px) {
-  .tienda{
-    grid-template: repeat (1, 300px) / repeat (1, 300px);
-  }
+@media screen and (max-width: 600px){
+	.tienda{
+		grid-template: repeat(3, 300px) / repeat(1, 300px) ;
+	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
   
-  .Cabecera {
+.Cabecera {
   display: flex;
   justify-content: space-between;
   position: relative;
   height: 130px;
 }
   
-  .Cabecera figure {
+.Cabecera figure {
     width: 130px;
     margin: auto;
   }
@@ -210,23 +233,21 @@ label{
   height: 80px;
 }
   
-.Cabecera_h1 {
+.cabecera_h1 {
   position: absolute;
   top: 40px;
   left: 100px;
 } 
  
- .Cabecera_frase {
+.cabecera_frase {
   position: absolute;
-  top: 70px;
+  top: 75px;
   left: 100px;
 }
  
- .nav {
+.nav {
    display: none;
- 
-  
-  } 
+  }
   
 }
 
